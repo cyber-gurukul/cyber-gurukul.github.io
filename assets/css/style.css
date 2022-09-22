@@ -260,7 +260,7 @@ h6 {
   cursor: pointer;
   display: none;
   line-height: 0;
-  transition: 0.5s;
+  transition: all 0.6s ease-in-out;
 }
 
 .mobile-nav-toggle.bi-x {
@@ -370,6 +370,10 @@ h6 {
 --------------------------------------------------------------*/
 .ht{
   height: 80vh;
+}
+
+.carousel-inner .carousel-item img{
+  opacity: 0.5;
 }
 
 /* #hero {
@@ -720,6 +724,10 @@ section {
   color: #3498db;
   font-size: 40px;
   line-height: 0;
+}
+
+.mr-1{
+  margin: 14px 3px 0px 10px;
 }
 
 .services .icon-box h4 {
@@ -1321,6 +1329,14 @@ section {
 
   .breadcrumbs ol li {
     display: inline-block;
+  }
+
+  .ht{
+    height: 50vh;
+  }
+
+  .member{
+    width: 100%;
   }
 }
 
