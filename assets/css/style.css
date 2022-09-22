@@ -373,7 +373,14 @@ h6 {
 }
 
 .carousel-inner .carousel-item img{
-  opacity: 0.5;
+  opacity: 0.8892;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover{
+  background-color: #ed3c0d;
+  border-radius: 50px;
+  transition: 0.5s all ease-in-out;
 }
 
 /* #hero {
